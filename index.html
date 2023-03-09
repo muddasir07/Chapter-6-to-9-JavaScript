@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body>
+    <div class="chapter">
+        <h1> Chapter 6 to 9 </h1>
+    </div>
+ <div class="Greeting">
+        <h2>Greeting Program </h2>
+        <P><span>Objective</span> <br>Write a program that takes input a name from user & greet the user.</P>
+        <button id="my-button">Click me!</button>
+        <script src="script.js"></script>
+    </div>
+
+<div class="Multiply">
+    <h2>Multiplication Table</h2>
+    <P><span>Objective</span> <br>Write a program to take input a number from user & 
+        display it’s multiplication table on your browser. If user does not enter a new number, multiplication table of 5 should be displayed by default.</P>
+	<button onclick="displayMultiplicationTable()">Display Table</button>
+	<table id="table"></table>
+</div>
+
+<div class="Result">
+    <h2>Explanation </h2>
+    <P><span>Objective</span> <br>What will be the output in variables a, b & result after
+        execution of the following script:
+        var a = 2, b = 1 </P>
+
+	<p> a is 1 and b is 0 <br> --a= 1 <br> --a - --b = 1 <br> --a - --b + ++b = 1 - 0 + 1 (which is 2) <br> --a - -- b + ++b +b -- = 1 - 0 + 1 + 1 (which is 3)
+   <br> when we assigned the value of --a - --b + ++b + b-- to result,<br> the expression used the current values of a and b, which are 1 and 0 respectively. <br> Therefore, the value of <br><strong> Result is 2</strong> </p>
+</div>
+
+<div class="Marks">
+<h2>Calculate Total Marks and Percentage</h1>
+<P><span>Objective</span> <br>Take three subjects name and Obtained marks etc </P>
+
+  <input type="button" value="Calculate" onclick="calculateMarks()" />
+<div id="result"></div>
+</div>
+
+
+<div class="operator">
+<h2>Arithmetic Operators</h1>
+<P><span>Objective</span> <br>Write a program to take a number in a variable, do the required arithmetic to display the following result in browser </P>
+    <button onclick="arithmetic()">Calculate</button>
+    <div id="output"></div>
+</div>
+
+
+
+</body>
+</html>
